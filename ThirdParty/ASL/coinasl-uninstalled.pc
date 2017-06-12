@@ -1,0 +1,9 @@
+prefix=/home/anoop/Work/Udacity/SelfDriving/ModelPredictiveController/Ipopt-3.12.1
+libdir=/home/anoop/Work/Udacity/SelfDriving/ModelPredictiveController/Ipopt-3.12.1/ThirdParty/ASL
+
+Name: ASL
+Description: AMPL Solver Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.3.2
+Libs: ${libdir}/libcoinasl.la -lm -ldl 
+Cflags: -I/home/anoop/Work/Udacity/SelfDriving/ModelPredictiveController/Ipopt-3.12.1/ThirdParty/ASL -I/home/anoop/Work/Udacity/SelfDriving/ModelPredictiveController/Ipopt-3.12.1/ThirdParty/ASL/solvers

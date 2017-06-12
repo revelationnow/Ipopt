@@ -1,0 +1,10 @@
+prefix=/home/anoop/Work/Udacity/SelfDriving/ModelPredictiveController/Ipopt-3.12.1
+libdir=/home/anoop/Work/Udacity/SelfDriving/ModelPredictiveController/Ipopt-3.12.1/ThirdParty/Lapack
+
+Name: Lapack
+Description: Linear algebra package
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.5.2
+Libs: ${libdir}/libcoinlapack.la   -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lgfortran -lm -lquadmath
+Cflags:
+Requires: coinblas 
